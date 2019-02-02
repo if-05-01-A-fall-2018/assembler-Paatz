@@ -1,0 +1,44 @@
+# The  "Percentage-Calculator"
+
+"Geben Sie die maximale Punktzhal ein:Geben Sie ihre Punktezahl ein:"
+inc 20
+
+# print "Geben Sie die maximale Punktzhal ein: "
+lit 0
+lit 37
+lit 38
+out 2
+
+# read input max points
+la 0 32
+la 0 36
+in 0
+
+#print "Geben Sie ihre Punktezahl ein: "
+lit 37
+lit 29
+lit 30
+out 2
+
+# read user points
+la 0 40
+la 0 44
+in 0
+
+#calculate
+la 0 48   
+lv 0 40    
+lit 100  
+mul        
+lv 0 32    
+div        
+sto        
+
+#print result
+lv 0 48    
+lit 1      
+out 0      
+out 3      
+
+
+halt
